@@ -1,10 +1,10 @@
-# NyxnDocs - Cryptocurrency Documentation MCP Server
+# NyxDocs - Cryptocurrency Documentation MCP Server
 
 [![Python](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![MCP](https://img.shields.io/badge/MCP-compatible-green.svg)](https://modelcontextprotocol.io)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-NyxnDocs is a specialized Model Context Protocol (MCP) server that provides comprehensive documentation management for cryptocurrency projects. Built with Python and inspired by Context7's architecture, it offers real-time access to crypto project documentation, blockchain information, and development resources.
+NyxDocs is a specialized Model Context Protocol (MCP) server that provides comprehensive documentation management for cryptocurrency projects. Built with Python and inspired by Context7's architecture, it offers real-time access to crypto project documentation, blockchain information, and development resources.
 
 ## 🚀 Features
 
@@ -53,8 +53,8 @@ NyxnDocs is a specialized Model Context Protocol (MCP) server that provides comp
 
 ```bash
 # Clone the repository
-git clone https://github.com/nyxn-ai/NyxnDocs.git
-cd NyxnDocs
+git clone https://github.com/nyxn-ai/NyxDocs.git
+cd NyxDocs
 
 # Install with uv (recommended)
 uv sync
@@ -148,7 +148,7 @@ check_updates(since="2024-01-01", limit=10)
 
 ### Project Structure
 ```
-NyxnDocs/
+NyxDocs/
 ├── nyxdocs/
 │   ├── __init__.py
 │   ├── server.py              # Main MCP server
@@ -197,4 +197,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**NyxnDocs** - Making cryptocurrency project documentation accessible and up-to-date for AI assistants.
+**NyxDocs** - Making cryptocurrency project documentation accessible and up-to-date for AI assistants.
